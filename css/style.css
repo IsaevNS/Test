@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #eff6ff;
+}
+.main {
+  padding: 80px;
+  display: flex;
+  width: 90%;
+  height: 1000px;
+}
+.main-info {
+  flex-grow: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffff;
+}
+.main-image {
+  background-image: url("https://raw.githubusercontent.com/jm-program/css-task/master/img/bg.jpg");
+  min-width: 758px;
+}
+.logo {
+  margin: 45px;
+  width: 147px;
+}
+
+.main-menu {
+  position: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: solid #ffff 70px;
+  font-family: "Barlow", sans-serif;
+  font-weight: normal;
+  color: #2a4a5c;
+  font-size: 20px;
+}
+.button {
+  position: flex;
+}
+.facebook-button {
+  background: #255a9b;
+  font-size: 15px;
+  color: #ffff;
+}
+.link-button {
+  background: #255a9b;
+  font-size: 15px;
+  color: #ffff;
+}
